@@ -115,6 +115,14 @@ body {
   color: #444;
 }
 
+.summary-box p:nth-of-type(3) {
+  margin-bottom: 0;
+}
+
+.summary-box p:nth-of-type(4) {
+  margin-top: 0;
+}
+
 /* Section */
 h2 {
   border-bottom: 1px solid #ccc;
@@ -233,6 +241,12 @@ ul {
   margin: 0;
 }
 
+.timeline-sub {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.2rem 0 0.3rem;
+}
+
 .timeline-period {
   font-size: 0.9rem;
   color: #555;
@@ -284,4 +298,148 @@ ul {
   line-height: 1.7;
   color: #444;
   margin: 0.2rem 0 0;
+}
+
+/*  toggle button */
+.lang-toggle-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-family: 'MaruBuri', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .lang-toggle-container {
+    top: 0.5rem;
+    right: 0.5rem;
+    scale: 0.85;
+  }
+}
+
+@media (max-width: 480px) {
+  .lang-toggle-container {
+    top: auto;
+    bottom: 1rem;
+    right: 1rem;
+    scale: 0.8;
+  }
+}
+
+.lang-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+.lang-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #4caf50;
+}
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
+
+
+/* media query */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .resume-container {
+    padding: 1.5rem;
+  }
+  .photo img {
+    width: 120px;
+  }
+  .personal-info {
+    padding-left: 1rem;
+  }
+  .tech-item {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+  .resume-container {
+    padding: 1rem;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .photo,
+  .personal-info {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+  }
+  .photo img {
+    width: 100px;
+  }
+  .badge-section {
+    gap: 1rem;
+  }
+  .tech-icons,
+  .role-tags {
+    justify-content: center;
+  }
+  .link-box {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .timeline-row {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .timeline-symbol,
+  .timeline-line {
+    display: none;
+  }
 }
