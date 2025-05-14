@@ -103,6 +103,16 @@ body {
   margin: 0.3rem 0;
 }
 
+.personal-info a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.personal-info a[href^="tel"],
+.personal-info a[href^="mailto"] {
+  cursor: pointer;
+}
+
 /* Summary */
 .summary-box {
   font-size: 0.8rem;
@@ -339,29 +349,21 @@ ul {
   transition: color 0.2s ease;
 }
 
-@media print {
-  .lang-toggle-container {
-    display: none !important;
-  }
-}
-
-@media (max-width: 1000px) {
-  .lang-toggle-container {
-    padding: 0.4rem 0.6rem;
-    gap: 0.4rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .lang-toggle-container {
-    transform: scale(0.85);
-    transform-origin: top right;
-  }
-}
-
 /* media query */
 html {
   font-size: 16px;
+}
+
+@media (hover: none) {
+  .lang-toggle-container button:hover,
+  .lang-toggle-container span:hover,
+  .link-item:hover,
+  #downloadBtn:hover i {
+    background-color: inherit !important;
+    box-shadow: none !important;
+    color: inherit !important;
+    opacity: 1 !important;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -429,5 +431,32 @@ html {
   .timeline-symbol,
   .timeline-line {
     display: none;
+  }
+}
+
+@media print {
+  .lang-toggle-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .lang-toggle-container {
+    padding: 0.4rem 0.6rem;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .lang-toggle-container {
+    transform: scale(0.85);
+    transform-origin: top right;
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-info a {
+    color: inherit;
+    text-decoration: none;
   }
 }
