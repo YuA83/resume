@@ -4,8 +4,10 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Resume</title>
-  <link rel="icon" type="image/x-icon" href="image/favicon.ico"/>
+
+  <link rel="icon" type="image/x-icon" href="image/favicon/favicon.ico"/>
   <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!--  &lt;!&ndash; Noto Sans KR (한글용) &ndash;&gt;-->
   <!--  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"/>-->
@@ -87,54 +89,51 @@
 
       <div class="tech-icons">
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
+          <img src="image/icons/Java.png" alt="Java"/>
           <span>Java</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-               alt="JavaScript"/>
+          <img src="image/icons/JavaScript.png" alt="JavaScript"/>
           <span>JavaScript</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS"/>
+          <img src="image/icons/Node.js.png" alt="NodeJS"/>
           <span>NodeJS</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="ExpressJS"/>
+          <img src="image/icons/Express.png" alt="ExpressJS"/>
           <span>ExpressJS</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot"/>
+          <img src="image/icons/Spring.png" alt="Spring Boot"/>
           <span>Spring Boot</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-               alt="AWS"/>
+          <img src="image/icons/AWS.png" alt="AWS"/>
           <span>AWS</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/>
+          <img src="image/icons/Docker.png" alt="Docker"/>
           <span>Docker</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/>
+          <img src="image/icons/Linux.png" alt="Linux"/>
           <span>Linux</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-               alt="PostgreSQL"/>
+          <img src="image/icons/PostgresSQL.png" alt="PostgreSQL"/>
           <span>PostgreSQL</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"/>
+          <img src="image/icons/MySQL.png" alt="MySQL"/>
           <span>MySQL</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg" alt="MariaDB"/>
+          <img src="image/icons/MariaDB.png" alt="MariaDB"/>
           <span>MariaDB</span>
         </div>
         <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/>
+          <img src="image/icons/MongoDB.png" alt="MongoDB"/>
           <span>MongoDB</span>
         </div>
         <!-- 필요 시 더 추가 -->
@@ -304,16 +303,27 @@
     </div>
   </div>
 
-  <!--  toggle button -->
+  <!--  toggle & download button -->
   <div class="lang-toggle-container">
-    <span id="langLabel">🇰🇷</span>
-    <label class="lang-switch">
-      <input type="checkbox" id="langToggle"/>
-      <span class="slider"></span>
-    </label>
+    <button id="downloadBtn"
+            aria-label="Download PDF"
+            title="Download PDF"
+    >
+      <i class="fas fa-download"></i>
+    </button>
+
+    <span id="langLabel"
+          title="영어로 번역"
+          data-ko="영어로 번역"
+          data-en="Translate to Korean"
+          style="cursor: pointer;"
+    >
+      🇰🇷
+    </span>
   </div>
 
 </div>
 </body>
 <script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </html>
