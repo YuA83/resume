@@ -63,6 +63,8 @@ const App = () => {
       {/* Toggle & Download Button Section */}
       <Button isKorean={isKorean}
               onToggle={toggleLanguage}
+              nameTitle={title.name}
+              roleTitle={title.role}
               buttonTitle={title.button}
               flagTitle={title.flag}
       />
