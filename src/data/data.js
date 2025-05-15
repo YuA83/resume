@@ -52,8 +52,8 @@ export const title = {
     en: "한국어로 번역"
   },
   flag: {
-    ko: "🇰🇷",
-    en: "🇺🇸"
+    ko: "🇺🇸",
+    en: "🇰🇷"
   }
 }
 
