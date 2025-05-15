@@ -17,7 +17,7 @@ const AboutMe = ({
           contents.map(({titleKo, titleEn, contentKo, contentEn}) => (
             <>
               <h3>{isKorean? titleKo : titleEn}</h3>
-              <p>{isKorean? contentKo : contentEn}</p>
+              <p style={{ whiteSpace: 'pre-line' }}>{isKorean? contentKo : contentEn}</p>
             </>
           ))
         }

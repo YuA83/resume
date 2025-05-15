@@ -213,7 +213,7 @@ export const project = [
       {
         ko: "https://localdigital.kr",
         en: "https://localdigital.kr"
-      },{
+      }, {
         ko: "https://admin.localdigital.kr",
         en: "https://admin.localdigital.kr"
       },
@@ -475,28 +475,53 @@ export const certification = [
     subTitle: {},
     contract: {},
     client: {},
-    period: "2021",
+    period: "202X",
     list: []
   }
 ];
 
 export const aboutMe = [
   {
-    titleKo: "제목",
-    titleEn: "title",
-    contentKo: "내용",
-    contentEn: "content"
+    titleKo: "프로젝트 주요 역할",
+    titleEn: "Key Project Roles",
+    contentKo: "그동안 맡아온 프로젝트들에서 백엔드 전반을 설계하고 구현하는 역할을 수행해왔습니다. 특히 다음과 같은 영역에 주도적으로 참여했습니다:\n" +
+      "\t•\t도메인 기반 API 설계 및 컨트롤러/서비스/레포지토리 구조 정립\n" +
+      "\t•\tSpring Security 기반 JWT 인증 시스템 구축 (액세스·리프레시 토큰 관리, 필터 설계, 쿠키 기반 인증)\n" +
+      "\t•\t예외 처리와 응답 표준화: @RestControllerAdvice와 커스텀 예외 클래스 구성\n" +
+      "\t•\tMyBatis/QueryDSL 기반 DB 접근 로직 구현 및 쿼리 성능 개선\n" +
+      "\t•\tPostgreSQL 튜닝: 인덱스 적용, 조건 분기 정렬, LIMIT + UNION 전략 등\n" +
+      "\t•\tDocker + PM2를 통한 배포 및 운영 환경 구성, S3 및 SES 등 AWS 서비스 활용\n" +
+      "\n" +
+      "서비스의 기능 구현뿐 아니라, 전체 시스템의 흐름과 유지보수성까지 고려한 구조 설계에 깊이 관여해 왔습니다.\n",
+    contentEn: "In the projects I’ve worked on, I’ve taken charge of designing and implementing the entire backend architecture. I’ve been particularly involved in the following areas:\n" +
+      "\t•\tDomain-driven API design and establishing controller/service/repository structure\n" +
+      "\t•\tBuilding a JWT-based authentication system using Spring Security, including access/refresh token management, custom filters, and cookie-based authentication\n" +
+      "\t•\tException handling and standardized API responses using @RestControllerAdvice and custom exception classes\n" +
+      "\t•\tImplementing database access logic with MyBatis and QueryDSL, with a focus on query optimization\n" +
+      "\t•\tPostgreSQL tuning, including index optimization, conditional sorting, and LIMIT + UNION strategies\n" +
+      "\t•\tManaging deployment environments using Docker and PM2, and utilizing AWS services such as S3 and SES\n" +
+      "\n" +
+      "Beyond simply implementing features, I have played a key role in designing system-wide flows and maintainable architectures.\n"
   },
   {
-    titleKo: "제목2",
-    titleEn: "title2",
-    contentKo: "내용2",
-    contentEn: "content2"
+    titleKo: "보안 전공에서 개발자를 택한 이유",
+    titleEn: " Why I Chose Development Over My Major in Security",
+    contentKo: "대학에서 보안을 전공하며 시스템 구조나 데이터 흐름에 대해 자연스럽게 익숙해졌습니다. 하지만 졸업 프로젝트에서 직접 웹 서비스를 개발하면서, 직접 문제를 정의하고 기능을 구현해 나가는 개발의 매력에 끌려 개발자로의 길을 선택하게 되었습니다.\n" +
+      "\n" +
+      "보안을 전공한 경험은 지금도 강점으로 작용하고 있습니다. 인증·인가, 세션 관리, 권한 제어 설계 등 보안이 중요한 영역에서 보다 깊이 있는 접근이 가능했고, 단순한 기능 구현이 아니라 안정성과 신뢰성까지 고려하는 개발자로 성장할 수 있었습니다.\n",
+    contentEn: "I majored in information security, which naturally made me familiar with system architecture and data flow. However, through building a web application for my graduation project, I discovered the joy of defining problems and solving them through code, which ultimately led me to become a developer.\n" +
+      "\n" +
+      "This background in security has become a strong advantage in my work. It allows me to approach authentication, session management, and access control with a deeper understanding, leading to systems that are not only functional but also secure and reliable. It has shaped me into a developer who values both correctness and trustworthiness in software.\n"
   },
   {
-    titleKo: "제목3",
-    titleEn: "title3",
-    contentKo: "내용3",
-    contentEn: "content3"
+    titleKo: "장단점",
+    titleEn: "Strengths and Weaknesses",
+    contentKo: "장점은 코드를 단순히 만드는 것이 아니라, 구조적으로 이해하기 쉽고 향후에도 확장 가능한 형태로 만드는 데 집중한다는 점입니다. “지금 되는 코드”보다 “내일도 쉽게 고칠 수 있는 코드”를 추구합니다.\n" +
+      "또한 시스템 전체의 흐름과 책임 분리를 설계하며, 주도적으로 기술적 의사결정을 내리는 데 익숙합니다.\n" +
+      "\n" +
+      "단점은 간혹 설계나 구조에 집중한 나머지, 빠르게 구현하는 초기 속도가 늦어질 때가 있다는 점입니다. 하지만 이 과정이 결국 더 적은 유지보수와 빠른 협업으로 이어지도록 만드는 경험을 통해 보완하고 있습니다.\n",
+    contentEn: "My strength lies in my focus on writing code that is not just functional, but clear, scalable, and easy to maintain. I believe good code isn’t just about working today — it’s about being understandable and adaptable tomorrow. I also excel at system-level thinking, designing clear responsibility boundaries and leading key architectural decisions.\n" +
+      "\n" +
+      "My weakness is that I sometimes spend extra time on structure and design in the early stages, which can slow down initial implementation. However, I’ve learned that this often leads to fewer bugs and smoother collaboration in the long run, and I continuously work on balancing speed with quality.\n"
   }
 ];
