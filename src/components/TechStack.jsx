@@ -36,7 +36,7 @@ const TechStack = ({
           {
             contents.map(({name, icon}) => (
               <div className="tech-item" key={name}>
-                <img src={`/assets/icons/${icon}`} alt={name}/>
+                <img src={`${process.env.PUBLIC_URL}/assets/icons/${icon}`} alt={name}/>
                 <span>{name}</span>
               </div>
             ))
