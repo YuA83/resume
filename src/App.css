@@ -246,12 +246,23 @@ ul {
   padding-left: 0.5rem;
 }
 
-.timeline-title {
+.timeline-content a {
+  color: #6993d7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.timeline-content a:hover {
+  color: #0c47a1;
+  text-decoration: underline;
+}
+
+.timeline-title, .timeline-contract {
   font-weight: bold;
   margin: 0;
 }
 
-.timeline-sub {
+.timeline-sub, .timeline-client {
   font-size: 0.9rem;
   color: #666;
   margin: 0.2rem 0 0.3rem;

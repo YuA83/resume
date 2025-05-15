@@ -81,18 +81,18 @@ export const summary = [
 ];
 
 export const techList = [
-  { name: 'Java', icon: 'Java.png' },
-  { name: 'JavaScript', icon: 'JavaScript.png' },
-  { name: 'NodeJS', icon: 'Node.js.png' },
-  { name: 'ExpressJS', icon: 'Express.png' },
-  { name: 'Spring Boot', icon: 'Spring.png' },
-  { name: 'AWS', icon: 'AWS.png' },
-  { name: 'Docker', icon: 'Docker.png' },
-  { name: 'Linux', icon: 'Linux.png' },
-  { name: 'PostgreSQL', icon: 'PostgresSQL.png' },
-  { name: 'MySQL', icon: 'MySQL.png' },
-  { name: 'MariaDB', icon: 'MariaDB.png' },
-  { name: 'MongoDB', icon: 'MongoDB.png' },
+  {name: "Java", icon: "Java.png"},
+  {name: "JavaScript", icon: "JavaScript.png"},
+  {name: "NodeJS", icon: "Node.js.png"},
+  {name: "ExpressJS", icon: "Express.png"},
+  {name: "Spring Boot", icon: "Spring.png"},
+  {name: "AWS", icon: "AWS.png"},
+  {name: "Docker", icon: "Docker.png"},
+  {name: "Linux", icon: "Linux.png"},
+  {name: "PostgreSQL", icon: "PostgresSQL.png"},
+  {name: "MySQL", icon: "MySQL.png"},
+  {name: "MariaDB", icon: "MariaDB.png"},
+  {name: "MongoDB", icon: "MongoDB.png"},
 ];
 
 export const experience = [
@@ -105,6 +105,8 @@ export const experience = [
       ko: "백엔드 개발자",
       en: "Backend Developer"
     },
+    contract: {},
+    client: {},
     period: "2024.07 ~ current",
     list: [
       {
@@ -126,6 +128,8 @@ export const experience = [
       ko: "백엔드 개발자",
       en: "Backend Developer"
     },
+    contract: {},
+    client: {},
     period: "2021.01 ~ 2024.07",
     list: [
       {
@@ -144,19 +148,289 @@ export const experience = [
 export const project = [
   {
     title: {
-      ko: "프로젝트명",
-      en: "project"
+      ko: "DF-React-Core",
+      en: "DF-React-Core"
+    },
+    contract: {},
+    client: {
+      ko: "돔팸",
+      en: "Domfam"
     },
     subTitle: {
-      ko: "간단 설명",
-      en: "description"
+      ko: "React Boilerplate",
+      en: "React Boilerplate"
     },
-    period: "",
+    period: "2025.01 ~",
     list: [
       {
-        ko: "한 일",
-        en: "function"
+        ko: "",
+        en: ""
       },
+    ]
+  },
+  {
+    title: {
+      ko: "SW미래채움 홈페이지",
+      en: "SW Future Filling Homepage"
+    },
+    contract: {},
+    client: {
+      ko: "정보통신산업진흥원",
+      en: "NIPA"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2024.08 ~ 2025.02",
+    list: [
+      {
+        ko: "https://sweduhub.or.kr",
+        en: "https://sweduhub.or.kr"
+      },
+      {
+        ko: "https://admin.sweduhub.or.kr",
+        en: "https://admin.sweduhub.or.kr"
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "Dreams 홈페이지",
+      en: "Dreams Homepage"
+    },
+    contract: {},
+    client: {
+      ko: "정보통신산업진흥원",
+      en: "NIPA"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2024.08 ~ 2025.02",
+    list: [
+      {
+        ko: "https://localdigital.kr",
+        en: "https://localdigital.kr"
+      },{
+        ko: "https://admin.localdigital.kr",
+        en: "https://admin.localdigital.kr"
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "SW미래채움 성과관리 시스템",
+      en: "SW Future Filling Performance Management System"
+    },
+    contract: {},
+    client: {
+      ko: "정보통신산업진흥원",
+      en: "NIPA"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2024.07 ~ 2024.08",
+    list: [
+      {
+        ko: "https://www.swedulink.or.kr",
+        en: "https://www.swedulink.or.kr"
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "엠티처 홈페이지 웹사이트 리뉴얼 개발",
+      en: "Mteacher Homepage Website Renewal Development"
+    },
+    contract: {},
+    client: {
+      ko: "엘루오씨앤씨",
+      en: "Eluocnc"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2023.06 ~ 2024.03",
+    list: [
+      {
+        ko: "https://g.m-teacher.co.kr/pages/common/Gate.mrn",
+        en: "https://g.m-teacher.co.kr/pages/common/Gate.mrn"
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "IITP 73",
+      en: "IITP 73"
+    },
+    contract: {
+      ko: "다양한 산업 분야 활용성 증대를 위한 대규모/대용량 블록체인 데이터 고확장성 분산 저장 기술 개발",
+      en: "Development of high-scalability distributed storage technology for large-scale/large-capacity blockchain data to increase usability in various industrial fields"
+    },
+    client: {
+      ko: "정보통신기획평가원",
+      en: "IITP"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2023.06 ~ 2024.03",
+    list: [
+      {
+        ko: "",
+        en: ""
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "IITP 74",
+      en: "IITP 74"
+    },
+    contract: {
+      ko: "다양한 산업 분야 활용성 증대를 위한 분산 저장된 대규모 데이터 고속 분석 기술개발",
+      en: "Development of high-speed analysis technology for distributed, large-scale data storage to increase usability in various industrial fields"
+    },
+    client: {
+      ko: "정보통신기획평가원",
+      en: "IITP"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2023.06 ~ 2024.03",
+    list: [
+      {
+        ko: "",
+        en: ""
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "Covenant Child 사전 예약 페이지",
+      en: "Covenant Child Pre-Order Page"
+    },
+    contract: {},
+    client: {
+      ko: "BFLabs",
+      en: "BFLabs"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2023.04 ~ 2023.06",
+    list: [
+      {
+        ko: "",
+        en: ""
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "대구 달서구 구조물 안전",
+      en: "Daegu Dalseo-gu Structure Safety"
+    },
+    contract: {
+      ko: "블록체인 IoT 기반 지능형 도시 안전 플랫폼",
+      en: "Blockchain IoT-based intelligent city safety platform"
+    },
+    client: {
+      ko: "국토교통과학기술진흥원",
+      en: "KAIA"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2022.12 ~ 2023.02",
+    list: [
+      {
+        ko: "",
+        en: ""
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "IITP 69",
+      en: "IITP 69"
+    },
+    contract: {
+      ko: "노드 간 메시지 전달과 합의를 위한 최적 경로 네트워크 프로토콜 기술개발",
+      en: "Development of optimal path network protocol technology for message transmission and agreement between nodes"
+    },
+    client: {
+      ko: "정보통신기획평가원",
+      en: "IITP"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2022.09 ~ 2024.06",
+    list: [
+      {
+        ko: "",
+        en: ""
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "맨홀 IoT",
+      en: "Manhole IoT"
+    },
+    contract: {
+      ko: "맨홀 IoT 시스템을 활용한 스마트 맨홀관리 구축 시스템 개발",
+      en: "Development of a smart manhole management system using the manhole IoT system"
+    },
+    client: {
+      ko: "중소기업기술정보진흥원",
+      en: "TIPA"
+    },
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2022.03 ~ 2022.10",
+    list: [
+      {
+        ko: "",
+        en: ""
+      },
+    ]
+  },
+  {
+    title: {
+      ko: "제주 스마트시티 챌린지",
+      en: "Jeju SmartCity Challenge"
+    },
+    contract: {},
+    client: {},
+    subTitle: {
+      ko: "설명",
+      en: "description"
+    },
+    period: "2022.01 ~ 2022.05",
+    list: [
+      {
+        ko: "https://e-3da.com/admin",
+        en: "https://e-3da.com/admin"
+      },
+      {
+        ko: "https://www.e-3da.com/e3daPlatformStatus",
+        en: "https://www.e-3da.com/e3daPlatformStatus"
+      }
     ]
   }
 ];
@@ -171,6 +445,8 @@ export const education = [
       ko: "정보보호학과",
       en: "Department of Information Security"
     },
+    contract: {},
+    client: {},
     period: "2017.03 ~ 2021.02",
     list: []
   },
@@ -183,6 +459,8 @@ export const education = [
       ko: "블록체인 기반 핀테크 및 응용 SW 개발자 양성 과정",
       en: "Blockchain-based Fintech and Application SW Developer Training Program"
     },
+    contract: {},
+    client: {},
     period: "2020.12 ~ 2021.10",
     list: []
   }
@@ -195,6 +473,8 @@ export const certification = [
       en: "Information Processing Engineer"
     },
     subTitle: {},
+    contract: {},
+    client: {},
     period: "2021",
     list: []
   }
