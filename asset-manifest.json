@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.8fcf7fed.css",
+    "main.js": "/resume/static/js/main.d751a281.js",
+    "index.html": "/resume/index.html",
+    "main.8fcf7fed.css.map": "/resume/static/css/main.8fcf7fed.css.map",
+    "main.d751a281.js.map": "/resume/static/js/main.d751a281.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fcf7fed.css",
+    "static/js/main.d751a281.js"
+  ]
+}
