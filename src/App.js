@@ -19,7 +19,7 @@ import Section from "./components/Section";
 
 const App = () => {
 
-  const [isKorean, setIsKorean] = useState(false);
+  const [isKorean, setIsKorean] = useState(true);
 
   const toggleLanguage = () => {
     setIsKorean(prev => !prev);
@@ -52,13 +52,13 @@ const App = () => {
       <Section isKorean={isKorean} title={title.education} contents={education} />
 
       {/* Certifications Section */}
-      <Section isKorean={isKorean} title={title.certification} contents={certification} />
+      {/*<Section isKorean={isKorean} title={title.certification} contents={certification} />*/}
 
       {/* About Me Section */}
       <AboutMe isKorean={isKorean} aboutMeTitle={title.aboutMe} contents={aboutMe} />
 
       {/* Links Section */}
-      <Link isKorean={isKorean} link={title.link} />
+      {/*<Link isKorean={isKorean} link={title.link} />*/}
 
       {/* Toggle & Download Button Section */}
       <Button isKorean={isKorean}

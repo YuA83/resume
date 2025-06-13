@@ -163,7 +163,19 @@ export const project = [
     period: "2025.01 ~",
     list: [
       {
-        ko: "",
+        ko: "Java, SpringBoot, JPA, Mybatis, PostgreSQL, AWS",
+        en: "Java, SpringBoot, JPA, Mybatis, PostgreSQL, AWS"
+      },
+      {
+        ko: "ERD 설계 및 데이터베이스 구축",
+        en: ""
+      },
+      {
+        ko: "AWS RDS, EC2, SES, Route53 등의 서비스를 사용하여 인프라 구축",
+        en: ""
+      },
+      {
+        ko: "API 구현 (인증/인가 외 파일 업로드 및 기본적인 CRUD)",
         en: ""
       },
     ]
@@ -184,6 +196,22 @@ export const project = [
     },
     period: "2024.08 ~ 2025.02",
     list: [
+      {
+        ko: "Java, SpringBoot, JPA, Mybatis, PostgreSQL, AWS",
+        en: "Java, SpringBoot, JPA, Mybatis, PostgreSQL, AWS"
+      },
+      {
+        ko: "ERD 설계 및 데이터베이스 구축",
+        en: ""
+      },
+      {
+        ko: "AWS RDS, EC2, SES, Route53 등의 서비스를 사용하여 인프라 구축",
+        en: ""
+      },
+      {
+        ko: "API 구현 (인증/인가 외 파일 업로드 및 기본적인 CRUD)",
+        en: ""
+      },
       {
         ko: "https://sweduhub.or.kr",
         en: "https://sweduhub.or.kr"
@@ -211,6 +239,22 @@ export const project = [
     period: "2024.08 ~ 2025.02",
     list: [
       {
+        ko: "Java, SpringBoot, JPA, Mybatis, PostgreSQL, AWS",
+        en: "Java, SpringBoot, JPA, Mybatis, PostgreSQL, AWS"
+      },
+      {
+        ko: "ERD 설계 및 데이터베이스 구축",
+        en: ""
+      },
+      {
+        ko: "AWS RDS, EC2, SES, Route53 등의 서비스를 사용하여 인프라 구축",
+        en: ""
+      },
+      {
+        ko: "API 구현 (인증/인가 외 파일 업로드 및 기본적인 CRUD)",
+        en: ""
+      },
+      {
         ko: "https://localdigital.kr",
         en: "https://localdigital.kr"
       }, {
@@ -236,6 +280,14 @@ export const project = [
     period: "2024.07 ~ 2024.08",
     list: [
       {
+        ko: "React",
+        en: "React"
+      },
+      {
+        ko: "기존 기능 유지보수 및 신규 페이지 개발",
+        en: ""
+      },
+      {
         ko: "https://www.swedulink.or.kr",
         en: "https://www.swedulink.or.kr"
       },
@@ -252,14 +304,30 @@ export const project = [
       en: "Eluocnc"
     },
     subTitle: {
-      ko: "설명",
+      ko: "미래엔 교과서를 사용하는 학교 선생님에게 수업 컨텐츠 제공",
       en: "description"
     },
     period: "2023.06 ~ 2024.03",
     list: [
       {
-        ko: "https://g.m-teacher.co.kr/pages/common/Gate.mrn",
-        en: "https://g.m-teacher.co.kr/pages/common/Gate.mrn"
+        ko: "Java, SpringBoot, Thymleaf, Mybatis, MariaDB, AWS",
+        en: "Java, SpringBoot, Thymleaf, Mybatis, MariaDB, AWS"
+      },
+      {
+        ko: "사용자 기능: 중등 사이트 메인 & 게시판, 퀵메뉴, My Class, 필수 프로그램, 전국 지사 안내",
+        en: ""
+      },
+      {
+        ko: "관리자 기능: 관리자 메뉴, 학교 등록, 메일 관리, FAQ, 참고서 구입 안내, 문학책방",
+        en: ""
+      },
+      {
+        ko: "AWS code pipeline 구축 테스트 (code commit → code build → code deploy)",
+        en: ""
+      },
+      {
+        ko: "https://m.m-teacher.co.kr/pages/mid/Main.mrn",
+        en: "https://m.m-teacher.co.kr/pages/mid/Main.mrn"
       },
     ]
   },
@@ -277,13 +345,25 @@ export const project = [
       en: "IITP"
     },
     subTitle: {
-      ko: "설명",
+      ko: "넙치의 이미지를 업로드 하면 질병 여부를 판단해 주는 앱 & 관리자 사이트",
       en: "description"
     },
     period: "2023.06 ~ 2024.03",
     list: [
       {
-        ko: "",
+        ko: "JavaScript, Express.js, Linux",
+        en: "JavaScript, Express.js, Linux"
+      },
+      {
+        ko: "넙치 이미지를 통해 질병을 판단하는 yolo 모델 실행 및 결과 저장 API",
+        en: ""
+      },
+      {
+        ko: "관리자 사이트 전체 Back-End 개발",
+        en: ""
+      },
+      {
+        ko: "유저 관리, 게시글 관리, 엑셀 다운로드, 인증 메일 전송",
         en: ""
       },
     ]
@@ -302,13 +382,17 @@ export const project = [
       en: "IITP"
     },
     subTitle: {
-      ko: "설명",
+      ko: "주정차된 차량을 신고하는 앱 & 관리자 사이트",
       en: "description"
     },
     period: "2023.06 ~ 2024.03",
     list: [
       {
-        ko: "",
+        ko: "Go, JavaScript, Express.js, Linux, Hyperledger Fabric",
+        en: "Go, JavaScript, Express.js, Linux, Hyperledger Fabric"
+      },
+      {
+        ko: "Hyperledger Fabric 배포 및 체인코드를 사용하여 블록체인에 데이터 저장하는 API 개발",
         en: ""
       },
     ]
@@ -324,13 +408,17 @@ export const project = [
       en: "BFLabs"
     },
     subTitle: {
-      ko: "설명",
+      ko: "커버넌트차일드 게임의 사전예약 이벤트 사이트",
       en: "description"
     },
     period: "2023.04 ~ 2023.06",
     list: [
       {
-        ko: "",
+        ko: "JavaScript, Express.js, Linux",
+        en: ""
+      },
+      {
+        ko: "사전 예약 인증 메일 발송, 이벤트 종료 후 이벤트 참여자에게 쿠폰 번호 메일 발송",
         en: ""
       },
     ]
@@ -349,13 +437,25 @@ export const project = [
       en: "KAIA"
     },
     subTitle: {
-      ko: "설명",
+      ko: "건물에 부착된 IoT 센서 데이터를 통해 구조물 안전 진단을 확인하는 사이트",
       en: "description"
     },
     period: "2022.12 ~ 2023.02",
     list: [
       {
-        ko: "",
+        ko: "JavaScript, Express.js, Hyperledger Fabric, NCP",
+        en: ""
+      },
+      {
+        ko: "Hyperledger Fabric 체인코드 작성 및 네트워크 구축",
+        en: ""
+      },
+      {
+        ko: "Hyperledger Fabric 체인코드 사용을 위한 API 개발",
+        en: ""
+      },
+      {
+        ko: "Hyperledger Fabric Explorer API 개발",
         en: ""
       },
     ]
@@ -374,13 +474,25 @@ export const project = [
       en: "IITP"
     },
     subTitle: {
-      ko: "설명",
+      ko: "카드결제를 통해 UTM이라는 토큰을 충전하여 물품을 구매하는 앱 & 관리자 사이트",
       en: "description"
     },
     period: "2022.09 ~ 2024.06",
     list: [
       {
-        ko: "",
+        ko: "JavaScript, Express.js, Linux",
+        en: ""
+      },
+      {
+        ko: "사용자 앱, 관리자 사이트 Back-End 개발",
+        en: ""
+      },
+      {
+        ko: "사용자 기능: 카드 결제, UTM 토큰 충전, 물품 목록, 물품 구매, 환불",
+        en: ""
+      },
+      {
+        ko: "관리자 기능: 앱 사용자 관리, 구매 내역, 물품 또는 회사별 정산 내역",
         en: ""
       },
     ]
@@ -399,13 +511,25 @@ export const project = [
       en: "TIPA"
     },
     subTitle: {
-      ko: "설명",
+      ko: "맨홀 작업자의 작업 환경 안전 알림 대시보드",
       en: "description"
     },
     period: "2022.03 ~ 2022.10",
     list: [
       {
-        ko: "",
+        ko: "JavaScript, Express.js, AWS",
+        en: ""
+      },
+      {
+        ko: "AWS 서비스를 이용하여 1천 건의 로우 데이터를 1초 내로 전송하는 데이터 파이프라인 구축 후에 KTR 공인인증시험 진행",
+        en: ""
+      },
+      {
+        ko: "대시보드의 전체 Back-End 개발",
+        en: ""
+      },
+      {
+        ko: "기능: 로그인, 마이페이지, 맨홀 검색, 일별/월별/맨홀별 안전도 예측 결과&상세",
         en: ""
       },
     ]
@@ -418,11 +542,23 @@ export const project = [
     contract: {},
     client: {},
     subTitle: {
-      ko: "설명",
+      ko: "제주시 모빌리티 소개/관리 사이트",
       en: "description"
     },
     period: "2022.01 ~ 2022.05",
     list: [
+      {
+        ko: "JavaScript, Express.js, AWS",
+        en: ""
+      },
+      {
+        ko: "외부 API 데이터 가공 및 사용자 사이트 전체 Back-End 개발 ",
+        en: ""
+      },
+      {
+        ko: "핸드폰 인증 모듈 연결 (Pass 인증)",
+        en: ""
+      },
       {
         ko: "https://e-3da.com/admin",
         en: "https://e-3da.com/admin"
@@ -431,6 +567,26 @@ export const project = [
         ko: "https://www.e-3da.com/e3daPlatformStatus",
         en: "https://www.e-3da.com/e3daPlatformStatus"
       }
+    ]
+  },
+  {
+    title: {
+      ko: "기타",
+      en: "Etc."
+    },
+    contract: {},
+    client: {},
+    subTitle: {},
+    period: "",
+    list: [
+      {
+        ko: "AWS, Naver Cloud Platform, CloudZ 등 클라우드 서비스 관리, 서비스 사용 및 서버 이관 작업 진행",
+        en: ""
+      },
+      {
+        ko: "도메인, SSL 설정을 포함한 운영 서버 설정 및 프로젝트 배포",
+        en: ""
+      },
     ]
   }
 ];

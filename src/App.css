@@ -246,6 +246,11 @@ ul {
   padding-left: 0.5rem;
 }
 
+.timeline-content li {
+  padding-top: 0.3rem;
+  color: #333333;
+}
+
 .timeline-content a {
   color: #6993d7;
   text-decoration: none;
