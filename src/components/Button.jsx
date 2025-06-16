@@ -49,11 +49,11 @@ const Button = ({
 
     // toggle & download button
     <div className="lang-toggle-container">
-      <button id="downloadBtn" aria-label="Download PDF" title="Download PDF" onClick={handleDownload}>
-        <i className="fas fa-download">
-          <RxDownload />
-        </i>
-      </button>
+      {/*<button id="downloadBtn" aria-label="Download PDF" title="Download PDF" onClick={handleDownload}>*/}
+      {/*  <i className="fas fa-download">*/}
+      {/*    <RxDownload />*/}
+      {/*  </i>*/}
+      {/*</button>*/}
 
       <span
         id="langLabel"
