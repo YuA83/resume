@@ -11,7 +11,7 @@ const Header = ({
     // Profile Section
     <div className="header">
       <div className="photo">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/maru.jpg`} alt="프로필 사진"/>
+        <img src={`${process.env.PUBLIC_URL}/assets/images/profile.jpg`} alt="프로필 사진"/>
       </div>
       <div className="personal-info">
         <h1>{isKorean ? nameTitle.ko : nameTitle.en}</h1>
