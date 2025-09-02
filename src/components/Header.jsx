@@ -19,7 +19,7 @@ const Header = ({ isKorean, nameTitle, addressTitle }) => {
         <p>🎂 1998.08.03</p>
         <p>{isKorean ? addressTitle.ko : addressTitle.en}</p>
         <p>
-          <a href="tel:+821092588393">📞 </a>
+          <a href="">📞 </a>
         </p>
         <p>
           <a href="mailto:yua._.83@icloud.com">📧 yua._.83@icloud.com</a>
